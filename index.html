@@ -30,6 +30,113 @@
     </div>
     </section>
 
+    <section id="pijaca">
+        <h1>Pijaca</h1>
+        <div class="container">
+            <div id="asortiman">
+                <h2>Povrće</h2>
+
+                <div class="item">
+                    <img src="/img/potato.png">
+                    <div class="si-content">
+                        <h4>Krompir</h4>
+                        <p class="price">$10</p>
+                    </div>
+                    <div class="action">
+                        <input type="number" name="quantity" min="0" value="0">
+                        <button onclick="addToCart(this)">Dodaj</button>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="/img/tomato.png">
+                    <div class="si-content">
+                        <h4>Paradajz</h4>
+                        <p class="price">$20</p>
+                    </div>
+                    <div class="action">
+                        <input type="number" name="quantity" min="0" value="0">
+                        <button onclick="addToCart(this)">Dodaj</button>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="/img/carrot.png">
+                    <div class="si-content">
+                        <h4>Mrkva</h4>
+                        <p class="price">$30</p>
+                    </div>
+                    <div class="action">
+                        <input type="number" name="quantity" min="0" value="0">
+                        <button onclick="addToCart(this)">Dodaj</button>
+                    </div>
+                </div>
+
+            </div>
+
+            <div id="cart">
+                <h2>Korpa</h2>
+                <div class="cart-items"></div>
+                <div class="total"></div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="animacije">
+        <div class="section section1">
+            <h1>Ovo je animirani text!</h1>
+        </div>
+        
+        <div class="section section2">
+            <div class="border-line"></div>
+        
+            <h1>Najnoviji modeli</h1>
+        
+            <div class="images">
+                <img class="slideFromLeft" src="/img/car_left.jpg" alt="lijevo">
+                <img class="slideFromRight" src="/img/car_right.jpg" alt="desno">
+            </div>
+        </div>
+    </section>
+
+    <section id="registracija">
+        <form>
+            <h1>Registracija korisnika</h1>
+            <div>
+                <label for="ime_prezime">Ime i prezime: *</label>
+                <input id="ime_prezime" type="text" name="ime_prezime" placeholder="Ahmed Rizvo">
+            </div>
+            <div>
+                <label for="korisničko_ime">Korisničko ime: *</label>
+                <input id="korisničko_ime" type="text" name="korisničko_ime" placeholder="ahmed.rizvo">
+            </div>
+            <div>
+                <label for="email">Email adresa: *</label>
+                <input id="email" type="text" name="email" placeholder="ahmed.rizvo@gmail.com">
+            </div>
+            <div>
+                <label for="broj_telefona">Broj Telefona: *</label>
+                <input id="broj_telefona" type="text" name="broj_telefona" placeholder="+387 62 123 456">
+            </div>
+            <div>
+                <label for="lozinka">Lozinka: *</label>
+                <input id="lozinka" type="text" name="lozinka" placeholder="**********">
+            </div>
+            <div>
+                <label for="ponovi_lozinku">Ponovi lozinku: *</label>
+                <input id="ponovi_lozinku" type="text" name="ponovi_lozinku" placeholder="**********">
+            </div>
+            <div>
+                <button>Registruj se</button>
+            </div>
+        </form>
+    </section>
+
     <script src="js/js_kalkulator.js"></script>
+    <script src="js/js_pijaca.js"></script>
+    <script src="js/js_animacije.js"></script>
+    <script src="js/js_validator.js"></script>
+    <script src="js/js_script.js"></script>
 </body>
 </html>
